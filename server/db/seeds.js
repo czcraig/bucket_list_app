@@ -3,14 +3,14 @@ db.dropDatabase();
 
 db.bucket_lists.insertMany([
 {
-  listItem: "swim with dolphins"
+  goal: "swim with dolphins"
 },
 {
-  listItem: "Sky Diving"
+  goal: "Sky Diving"
 },
 
 {
-  listItem: "Visit China"
+  goal: "Visit China"
 }
 
 ]);
