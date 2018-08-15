@@ -12,6 +12,8 @@ BucketView.prototype.render = function (bucket) {
   bucketContainer.appendChild(goal);
 
   const deleteButton = this.createDeleteButton(bucket._id);
+  bucketContainer.appendChild(deleteButton);
+
   this.container.appendChild(bucketContainer);
 
 };
